@@ -1,6 +1,6 @@
 #f{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .G{
     color: white;

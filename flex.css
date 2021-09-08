@@ -1,6 +1,6 @@
 #f{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .G{
     color: white;
@@ -10,22 +10,7 @@
     height:auto;
     margin: 5px;
 }
-.H{
-    color: white;
-    background-color: rgb(36, 33, 33);
-    border-radius: 10px;
-    width: 250px;
-    height:auto;
-    margin: 5px;
-}
-.I{
-    color: white;
-    background-color: rgb(36, 33, 33);
-    border-radius: 10px;
-    width: 250px;
-    height:auto;
-    margin: 5px;
-}
+
 div{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -47,4 +32,9 @@ a:hover{
     text-decoration: none;
     font-size: larger;
     color: white;
+}
+@media screen and (max-width:500px) {
+    #f{
+        flex-direction: column;
+    }
 }

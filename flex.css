@@ -1,0 +1,50 @@
+#f{
+    display: flex;
+    flex-direction: row;
+}
+.G{
+    color: white;
+    background-color: rgb(36, 33, 33);
+    border-radius: 10px;
+    width: 250px;
+    height:auto;
+    margin: 5px;
+}
+.H{
+    color: white;
+    background-color: rgb(36, 33, 33);
+    border-radius: 10px;
+    width: 250px;
+    height:auto;
+    margin: 5px;
+}
+.I{
+    color: white;
+    background-color: rgb(36, 33, 33);
+    border-radius: 10px;
+    width: 250px;
+    height:auto;
+    margin: 5px;
+}
+div{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+p{
+    text-align: center;
+}
+hr{
+    color: white;
+}
+.pric{
+    font-size:40px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}

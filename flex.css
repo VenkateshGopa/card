@@ -1,4 +1,5 @@
 #f{
+    padding: 20px;
     display: flex;
     flex-direction: row;
 }
@@ -8,7 +9,9 @@
     border-radius: 10px;
     width: 250px;
     height:auto;
-    margin: 5px;
+    margin: 15px;
+    transition: 0.5s ease;
+    cursor: pointer;
 }
 
 div{
@@ -37,4 +40,8 @@ a:hover{
     #f{
         flex-direction: column;
     }
+}
+.G:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
 }
